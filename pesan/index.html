@@ -74,7 +74,7 @@ di background-image URL --><style>
   var aa=0,katangetik;function ngetik() {if(aa<katangetik.length){kalimat.innerHTML += katangetik.charAt(aa);aa++;setTimeout(ngetik,80);} if(aa==katangetik.length){fungsi=1;setTimeout(tombol,300);}}
   var ai=0,katangetik2;function ngetik2() {if(ai<katangetik2.length){kalimatc.innerHTML += katangetik2.charAt(ai);ai++;setTimeout(ngetik2,100);} if(ai==katangetik2.length){kalimatc.style.animation="rto 1s infinite alternate";setTimeout(stakhir,1000);}}
   function sbakhir(){kalimatc.style = "opacity:1;transform: scale(1);margin-top:30px";Bn.style.display="none";} function stakhir(){tmbl.innerHTML="Kirim Pesan";tmbl.style="font-size:12px";Tombol.style="margin-top:10px;opacity:1;transform: scale(1)";ftom=5;fungsi=0;}
-  async function menuju(){await swals.fire('OK!', 'Kirim pesan ke WhatsApp, yaa', 'success');window.location = "https://api.whatsapp.com/send?phone=6287776644389&text=" + pesanwhatsapp;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";} setTimeout(showDiv,100);
+  async function menuju(){await swals.fire('OK!', 'Kirim pesan ke WhatsApp, yaa', 'success');window.location = "https://api.whatsapp.com/send?phone=6285609178112&text=" + pesanwhatsapp;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";} setTimeout(showDiv,100);
   async function jawab(){setInterval(createHeart,200);bodyblur.style="opacity:.5;animation:none";beneranblur.style="-webkit-backdrop-filter:blur(2px); backdrop-filter:blur(2px)";wallpaper.style="transform: scale(1)";Tombol.style="opacity:0;transform: scale(.1);";setTimeout(sbakhir,3000);setTimeout(ngetik2,3100);otomatis2();}
 
   flag=1;flagg=1;fungsi=0;
